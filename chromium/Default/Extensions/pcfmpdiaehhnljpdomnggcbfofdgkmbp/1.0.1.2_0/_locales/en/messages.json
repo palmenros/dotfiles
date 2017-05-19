@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Join the epic battle for dominance of the galaxy! Build defensive turrets, Attack in real-time."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Edgeworld"
+   }
+}

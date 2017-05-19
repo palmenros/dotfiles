@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.kabam.com/edgeworld/chrome-play?entrypt=ew-gcs-z-z-z-z"
+      },
+      "urls": [ "https://www.kabam.com/edgeworld/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvhwRjLlY39GMKPmIdUcvsPZ+rxnLvcRx9a4RDg8Af7gtW/Dyr3KlnaM2YLfVYp+Trxa+H72MSoRbCet5UyCjArDxptQAIEHz80N1RUoGBGuKCOVa2Uy+fHfCwpBfXm3qQJ7UezUKtLagX8q4edFoxf6xU7tPvBU6aJsGlW4JE3wIDAQAB",
+   "name": "__MSG_application_title__",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.1.2"
+}

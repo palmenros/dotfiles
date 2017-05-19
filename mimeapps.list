@@ -1,0 +1,7 @@
+[Added Associations]
+image/png=feh.desktop;
+text/plain=org.gnome.gedit.desktop;
+audio/x-wav=gtk3-demo.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+application/octet-stream=org.gnome.gedit.desktop;
+application/pdf=zathura.desktop;

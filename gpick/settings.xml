@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding='UTF-8'?><root>
+<gpick type="dynv">
+<generate_scheme type="dynv">
+<hsv_shift type="float" list="true"><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></hsv_shift>
+<hue type="float">110.886</hue>
+<lightness type="float">0</lightness>
+<saturation type="float">100</saturation>
+<type type="int32">0</type>
+<wheel_locked type="bool">true</wheel_locked>
+<wheel_type type="int32">0</wheel_type>
+</generate_scheme>
+<layout_preview type="dynv">
+<css_selectors type="dynv">
+<assignments type="dynv">
+<item1 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item1>
+<item10 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item10>
+<item10_text type="dynv">
+<color type="color">0.2 0.2 0.2 7.58392e-39</color>
+</item10_text>
+<item11 type="dynv">
+<color type="color">0.8 0.8 0.8 -2.79911e+38</color>
+</item11>
+<item11_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item11_text>
+<item12 type="dynv">
+<color type="color">0.8 0.8 0.8 -1.0647e-26</color>
+</item12>
+<item12_text type="dynv">
+<color type="color">0.2 0.2 0.2 4.86576e+11</color>
+</item12_text>
+<item13 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item13>
+<item13_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item13_text>
+<item14 type="dynv">
+<color type="color">0.8 0.8 0.8 1.4013e-45</color>
+</item14>
+<item14_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item14_text>
+<item15 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item15>
+<item15_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item15_text>
+<item16 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item16>
+<item16_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item16_text>
+<item17 type="dynv">
+<color type="color">0.8 0.8 0.8 1.4013e-45</color>
+</item17>
+<item17_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item17_text>
+<item18 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item18>
+<item18_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item18_text>
+<item19 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item19>
+<item19_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item19_text>
+<item1_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item1_text>
+<item2 type="dynv">
+<color type="color">0.8 0.8 0.8 1.79366e-43</color>
+</item2>
+<item20 type="dynv">
+<color type="color">0.8 0.8 0.8 1.4013e-45</color>
+</item20>
+<item20_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item20_text>
+<item2_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item2_text>
+<item3 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item3>
+<item3_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item3_text>
+<item4 type="dynv">
+<color type="color">0.8 0.8 0.8 1.47276e-42</color>
+</item4>
+<item4_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item4_text>
+<item5 type="dynv">
+<color type="color">0.8 0.8 0.8 1.5</color>
+</item5>
+<item5_text type="dynv">
+<color type="color">0.2 0.2 0.2 5.22011e-34</color>
+</item5_text>
+<item6 type="dynv">
+<color type="color">0.8 0.8 0.8 1.37753e-39</color>
+</item6>
+<item6_text type="dynv">
+<color type="color">0.2 0.2 0.2 3.36312e-44</color>
+</item6_text>
+<item7 type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</item7>
+<item7_text type="dynv">
+<color type="color">0.2 0.2 0.2 0</color>
+</item7_text>
+<item8 type="dynv">
+<color type="color">0.8 0.8 0.8 4.5807e-41</color>
+</item8>
+<item8_text type="dynv">
+<color type="color">0.2 0.2 0.2 5.60519e-45</color>
+</item8_text>
+<item9 type="dynv">
+<color type="color">0.8 0.8 0.8 7.58392e-39</color>
+</item9>
+<item9_text type="dynv">
+<color type="color">0.2 0.2 0.2 7.58392e-39</color>
+</item9_text>
+<menu_b type="dynv">
+<color type="color">0.7 0.7 0.7 0</color>
+</menu_b>
+<navitem_b type="dynv">
+<color type="color">0.3 0.3 0.3 0</color>
+</navitem_b>
+<navitem_bh type="dynv">
+<color type="color">0.3 0.3 0.3 0</color>
+</navitem_bh>
+<navitem_t type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</navitem_t>
+<navitem_th type="dynv">
+<color type="color">0.8 0.8 0.8 0</color>
+</navitem_th>
+</assignments>
+</css_selectors>
+<layout_name type="string">std_layout_menu_1</layout_name>
+</layout_preview>
+<main type="dynv">
+<color_source type="string">color_picker</color_source>
+<paned_position type="int32">436</paned_position>
+<secondary_color_source type="string"></secondary_color_source>
+<vertical_paned_position type="int32">0</vertical_paned_position>
+<window type="dynv">
+<height type="int32">490</height>
+<width type="int32">950</width>
+<x type="int32">962</x>
+<y type="int32">584</y>
+</window>
+</main>
+<picker type="dynv">
+<contrast type="dynv">
+<color type="color">1 1 1 4.59163e-41</color>
+</contrast>
+<expander type="dynv">
+<cmyk type="bool">false</cmyk>
+<hsl type="bool">false</hsl>
+<hsv type="bool">false</hsv>
+<info type="bool">true</info>
+<lab type="bool">false</lab>
+<lch type="bool">false</lch>
+<rgb type="bool">false</rgb>
+<settings type="bool">false</settings>
+</expander>
+<sampler type="dynv">
+<falloff type="int32">0</falloff>
+<oversample type="int32">0</oversample>
+</sampler>
+<swatch type="dynv">
+<active_color type="int32">1</active_color>
+<color1 type="color">0.142857 0.142857 0.142857 0</color1>
+<color2 type="color">0.285714 0.285714 0.285714 0</color2>
+<color3 type="color">0.428571 0.428571 0.428571 0</color3>
+<color4 type="color">0.571429 0.571429 0.571429 0</color4>
+<color5 type="color">0.714286 0.714286 0.714286 0</color5>
+<color6 type="color">0.857143 0.857143 0.857143 0</color6>
+</swatch>
+<zoom type="float">20</zoom>
+<zoom_size type="int32">150</zoom_size>
+</picker>
+<recent type="dynv">
+</recent>
+</gpick>
+</root>

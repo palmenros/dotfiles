@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "¡El control de la galaxia a tu alcance! Construye y arrasa."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Edgeworld"
+   }
+}

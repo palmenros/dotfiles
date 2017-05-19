@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/pedro/.config/polybar'
+let g:netrw_dirhist_2='/home/pedro/aur/polybar.wiki'
+let g:netrw_dirhist_3='/home/pedro/.urxvt'
+let g:netrw_dirhist_4='/home/pedro'
+let g:netrw_dirhist_5='/home/pedro/.wicd'
+let g:netrw_dirhist_6='/home/pedro/.config/nvim/plugged/vim-arduino/autoload'
