@@ -1,0 +1,2 @@
+/home/pedro/Books/learnopengl/LearnOpenGL/resources/objects/cyborg/cyborg.blend
+/home/pedro/matavacas.blend

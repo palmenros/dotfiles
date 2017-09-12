@@ -229,12 +229,20 @@ exec --no-startup-id feh --bg-scale /home/pedro/Pictures/wallpapers/snow-mountai
 
 # Assign programs to workspaces
 assign [class="Firefox"] $workspace2
-assign [class="Gimp"] $workspace3
-assign [class="Blender"] $workspace4
-assign [class="Vlc"] $workspace4
+# assign [class="Chromium"] $workspace3
+assign [class="jetbrains-phpstorm"] $workspace3
+assign [class="jetbrains-clion"] $workspace4
+assign [class="Blender"] $workspace5
+assign [class="kdenlive"] $workspace5
+assign [class="Vlc"] $workspace5
+assign [class="Gimp"] $workspace6
+assign [instance="libreoffice"] $workspace7
 assign [class="discord"] $workspace9
 assign [class="Rhythmbox"] $workspace10
+
 for_window [class="Spotify"] move to workspace $workspace10
+for_window [class="OpenGL Lab"] floating enable
+
 # Enable compton
 exec compton
 exec dunst

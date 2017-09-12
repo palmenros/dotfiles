@@ -1,0 +1,5 @@
+[Bookmarks]
+[Recent]
+/home/pedro/Books/learnopengl/LearnOpenGL/resources/objects/nanosuit/
+/home/pedro/Books/learnopengl/LearnOpenGL/resources/objects/cyborg/
+/home/pedro/
