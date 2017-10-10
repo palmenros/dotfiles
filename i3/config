@@ -229,7 +229,7 @@ exec --no-startup-id feh --bg-scale /home/pedro/Pictures/wallpapers/snow-mountai
 
 # Assign programs to workspaces
 assign [class="Firefox"] $workspace2
-# assign [class="Chromium"] $workspace3
+assign [class="Chromium"] $workspace2
 assign [class="jetbrains-phpstorm"] $workspace3
 assign [class="jetbrains-clion"] $workspace4
 assign [class="Blender"] $workspace5

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /*
  * This file is part of PHPUnit.
  *
@@ -32,7 +32,7 @@ class DefaultPhpProcess extends AbstractPhpProcess
      * @param string $job
      * @param array  $settings
      *
-     * @return array
+     * @return array<string, string>
      *
      * @throws Exception
      */
@@ -68,7 +68,7 @@ class DefaultPhpProcess extends AbstractPhpProcess
      * @param string $job
      * @param array  $settings
      *
-     * @return array
+     * @return array<string, string>
      *
      * @throws Exception
      */

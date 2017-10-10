@@ -9,7 +9,9 @@
 		"AdvancedNewFile",
 		"ColorPick",
 		"Emmet",
+		"Laravel Blade Highlighter",
 		"Material Theme",
-		"Package Control"
+		"Package Control",
+		"Vue Syntax Highlight"
 	]
 }

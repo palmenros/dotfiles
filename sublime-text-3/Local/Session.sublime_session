@@ -1,15 +1,19 @@
 {
 	"folder_history":
 	[
+		"/srv/http/Lab",
+		"/srv/http/Agrotech",
+		"/srv/http/Agrotech/routes",
+		"/srv/http/Acme",
 		"/srv/http",
 		"/home/pedro/learning-git"
 	],
-	"last_version": 3126,
-	"last_window_id": 9,
+	"last_version": 3143,
+	"last_window_id": 16,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1009.0,
+		"new_window_height": 1011.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -17,221 +21,53 @@
 				"selected_items":
 				[
 					[
-						"sty",
-						"stylesheet"
+						"completed",
+						"completedTasks"
 					],
 					[
-						"verti",
-						"vertical-lr"
+						"complete",
+						"completedTasks"
 					],
 					[
-						"text-deco",
+						"text-",
 						"text-decoration-line"
 					],
 					[
-						"text-dec",
-						"text-decoration-color"
+						"accep",
+						"acceptPromise"
 					],
 					[
-						"text-decorat",
-						"text-decoration-style"
+						"reje",
+						"rejectPromise"
 					],
 					[
-						"fotn",
-						"font-family"
+						"align",
+						"align-items"
 					],
 					[
-						"font-",
-						"font-style"
-					]
-				]
-			},
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 354.0,
-				"last_filter": "open ",
-				"selected_items":
-				[
-					[
-						"open ",
-						"View: Toggle Open Files in Side Bar"
+						"asb",
+						"absolute"
 					],
 					[
-						"delete",
-						"ANF: Delete Current File"
+						"inline",
+						"inline-block"
 					],
 					[
-						"anf dele",
-						"ANF: Delete Current File"
+						"font-s",
+						"font-size"
 					],
 					[
-						"and ",
-						"ANF: Delete File"
+						"overflow",
+						"overflow-y"
 					],
 					[
-						"tree",
-						"Material Theme: Advanced configuration"
+						"box",
+						"box-sizing"
 					],
 					[
-						"a file icon",
-						"A File Icon: Changelog"
+						"min",
+						"min-height"
 					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
-						"install p",
-						"Package Control: Install Package"
-					],
-					[
-						"material",
-						"Material Theme: Activate theme"
-					],
-					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
-						"Install Package Control"
-					]
-				],
-				"width": 467.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/pedro/learning-git/main.js",
-				"/home/pedro/learning-git/composer.json",
-				"/home/pedro/learning-git/test.blade.php",
-				"/home/pedro/learning-git/sum.h",
-				"/home/pedro/learning-git/main.cpp",
-				"/home/pedro/learning-git/sum.cpp",
-				"/home/pedro/learning-git/traverse.h",
-				"/home/pedro/learning-git/traverse.cpp",
-				"/home/pedro/Videos/CSS3/assets/reference/pet.css",
-				"/home/pedro/Videos/CSS3/assets/reference/pet.html",
-				"/srv/http/pet.html",
-				"/srv/http/styles.css",
-				"/srv/http/index.php",
-				"/home/pedro/styles.css",
-				"/srv/html"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 66.0
-			},
-			"menu_visible": true,
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 1908.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
 					[
 						"get",
 						"getMilliseconds"
@@ -313,14 +149,6 @@
 						"randomColor"
 					],
 					[
-						"align",
-						"align-items"
-					],
-					[
-						"inline",
-						"inline-flex"
-					],
-					[
 						"sty",
 						"stylesheet"
 					],
@@ -350,103 +178,28 @@
 					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"file": "/srv/http/index.html",
-					"settings":
-					{
-						"buffer_size": 211,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/srv/http/main.js",
-					"settings":
-					{
-						"buffer_size": 258,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/pedro/make/present.cpp",
-					"settings":
-					{
-						"buffer_size": 125,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "Download the media pack from http://www.openglsuperbible.com and unpack it in this directory.\n",
-					"file": "/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/bin/media/!OBTAIN_THE_MEDIA_PACK_AND_PUT_IT_HERE.txt",
-					"file_size": 94,
-					"file_write_time": 130822530460000000,
-					"settings":
-					{
-						"buffer_size": 94,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/materials_exercise1.cpp",
-					"settings":
-					{
-						"buffer_size": 10576,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp",
-					"settings":
-					{
-						"buffer_size": 12864,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/pedro/test.cpp",
-					"settings":
-					{
-						"buffer_size": 659,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "#include<graphics.h>\n#include<stdio.h>\n#include<conio.h>\n#include<alloc.h>\n#include<dos.h>\nvoid main()\n{\nint gm,gd=DETECT,s=0,i;\nchar *a,*b;\ninitgraph(&gd,&gm,\"c:\\\\bgi\");\ns=imagesize(150,75,250,150);\na=malloc(s);\nsetcolor(LIGHTRED);\nfor(i=0;i<25;i++)\nline(150,75+i,250,75+i);\nsetcolor(WHITE);\nfor(i=0;i<25;i++)\nline(150,100+i,250,100+i);\nsetcolor(GREEN);\nfor(i=0;i<25;i++)\nline(150,125+i,250,125+i);\nsetcolor(LIGHTRED);\ncircle(198,112,10);\nline(192,103,204,120);\nline(198,103,198,122);\nline(190,112,207,112);\nline(204,103,192,120);\ngetimage(150,75,250,150,a);\ncleardevice();\nfor(i=60;i<306;i++)\n{\n\tbar(143,60,150,i);\n\tdelay(5);\n}\nfor(i=60;i<306;i++)\n{\n\tbar(143,60,150,i);\n\tdelay(5);\n}\nfor(i=305;i<326;i++)\n{\n\tbar(120,305,173,i);\n\tdelay(5);\n}\nfor(i=325;i<346;i++)\n{\t\n\tbar(100,325,193,i);\n\tdelay(5);\n}\nfor(i=345;i<366;i++)\n{\n\tbar(80,345,213,i);\n\tdelay(5);\n}\nfor(i=0;i<170;i++)\n{\n\tputimage(151,230-i,a,COPY_PUT);\n\tdelay(5);\n}\n\tgetch();\n}",
-					"file": "/home/pedro/Downloads/FLAG.C",
-					"file_size": 980,
-					"file_write_time": 131496186438866988,
-					"settings":
-					{
-						"buffer_size": 934,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/3.2.materials.fs",
-					"settings":
-					{
-						"buffer_size": 1010,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
 			"build_system_choices":
 			[
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 354.0,
-				"last_filter": "package is",
+				"height": 170.0,
+				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"vue",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
 					[
 						"package is",
 						"Package Control: Install Package"
@@ -506,13 +259,9 @@
 					[
 						"instal",
 						"Package Control: Install Package"
-					],
-					[
-						"install",
-						"Install Package Control"
 					]
 				],
-				"width": 431.0
+				"width": 557.0
 			},
 			"console":
 			{
@@ -530,20 +279,32 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/srv/http"
-			],
 			"file_history":
 			[
+				"/srv/http/Agrotech/resources/views/settings.blade.php",
+				"/srv/http/Acme/resources/assets/js/main.js",
+				"/srv/http/Agrotech/public/.htaccess",
+				"/srv/http/Agrotech/styles.css",
+				"/srv/http/Agrotech/index.html",
+				"/srv/http/Lab/styles.css",
+				"/srv/http/Lab/test.html",
+				"/srv/http/Lab/test.css",
+				"/srv/http/Lab/index.html",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/3.2.materials.fs",
+				"/srv/http/index.html",
+				"/srv/http/main.js",
+				"/home/pedro/make/present.cpp",
+				"/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/bin/media/!OBTAIN_THE_MEDIA_PACK_AND_PUT_IT_HERE.txt",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/materials_exercise1.cpp",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp",
+				"/home/pedro/test.cpp",
+				"/home/pedro/Downloads/FLAG.C",
 				"/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/include/sb7.h",
 				"/srv/http/class.php",
 				"/home/pedro/Documents/regexr/index.html",
 				"/srv/http/game.js",
-				"/srv/http/main.js",
 				"/srv/http/game.css",
 				"/srv/http/game.html",
-				"/srv/http/index.html",
 				"/srv/http/styles.css",
 				"/home/pedro/.config/sublime-text-3/Packages/User/node.sublime-build",
 				"/home/pedro/learning-git/main.js",
@@ -563,7 +324,7 @@
 			],
 			"find":
 			{
-				"height": 44.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -577,6 +338,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"aside",
+					"\n}",
 					"this.vy",
 					"this.vx",
 					"vx",
@@ -596,271 +359,517 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 66.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/node.sublime-build",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"sty",
+						"public/css/styles.css"
+					],
+					[
+						"web.p",
+						"routes/web.php"
+					],
+					[
+						"welc",
+						"resources/views/welcome.blade.php"
+					],
+					[
+						"views/wel",
+						"resources/views/welcome.blade.php"
+					],
+					[
+						"php",
+						"class.php"
+					],
+					[
+						"game",
+						"game.js"
+					],
+					[
+						"main",
+						"main.js"
+					],
+					[
+						"game.js",
+						"game.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 263.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1908.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"conf",
+						"confirmation"
+					],
+					[
+						"mb_convert",
+						"mb_convert_encoding"
+					],
+					[
+						"replace",
+						"preg_replace"
+					],
+					[
+						"c",
+						"component"
+					],
+					[
+						"select",
+						"selectTab"
+					],
+					[
+						"completed",
+						"completedTasks"
+					],
+					[
+						"complete",
+						"completedTasks"
+					],
+					[
+						"text-",
+						"text-decoration-line"
+					],
+					[
+						"accep",
+						"acceptPromise"
+					],
+					[
+						"reje",
+						"rejectPromise"
+					],
+					[
+						"align",
+						"align-items"
+					],
+					[
+						"asb",
+						"absolute"
+					],
+					[
+						"inline",
+						"inline-block"
+					],
+					[
+						"font-s",
+						"font-size"
+					],
+					[
+						"overflow",
+						"overflow-y"
+					],
+					[
+						"box",
+						"box-sizing"
+					],
+					[
+						"min",
+						"min-height"
+					],
+					[
+						"get",
+						"getMilliseconds"
+					],
+					[
+						"per",
+						"person2"
+					],
+					[
+						"pesr",
+						"person1"
+					],
+					[
+						"ale",
+						"alertMe"
+					],
+					[
+						"aler",
+						"alertString"
+					],
+					[
+						"proto",
+						"proto\tPrototype"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"col",
+						"collisionDetect"
+					],
+					[
+						"co",
+						"collisionDetect"
+					],
+					[
+						"te",
+						"textContent"
+					],
+					[
+						"rq",
+						"requestURL"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"thumbn",
+						"thumbnail"
+					],
+					[
+						"thum",
+						"thumbnail"
+					],
+					[
+						"bac",
+						"background"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"bor",
+						"border-radius"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"rn",
+						"randomColor"
+					],
+					[
+						"sty",
+						"stylesheet"
+					],
+					[
+						"verti",
+						"vertical-lr"
+					],
+					[
+						"text-deco",
+						"text-decoration-line"
+					],
+					[
+						"text-dec",
+						"text-decoration-color"
+					],
+					[
+						"text-decorat",
+						"text-decoration-style"
+					],
+					[
+						"fotn",
+						"font-family"
+					],
+					[
+						"font-",
+						"font-style"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/pedro/bin/valet",
+					"settings":
+					{
+						"buffer_size": 2846,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 338.0,
+				"last_filter": "vue",
+				"selected_items":
+				[
+					[
+						"vue",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"package is",
+						"Package Control: Install Package"
+					],
+					[
+						"main",
+						"Material Theme: Info"
+					],
+					[
+						"rename",
+						"ANF: Rename File"
+					],
+					[
+						"anf rena",
+						"ANF: Rename File"
+					],
+					[
+						"build",
+						"Build: New Build System"
+					],
+					[
+						"open ",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"delete",
+						"ANF: Delete Current File"
+					],
+					[
+						"anf dele",
+						"ANF: Delete Current File"
+					],
+					[
+						"and ",
+						"ANF: Delete File"
+					],
+					[
+						"tree",
+						"Material Theme: Advanced configuration"
+					],
+					[
+						"a file icon",
+						"A File Icon: Changelog"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"material",
+						"Material Theme: Activate theme"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 513.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/srv/http/Lab",
+				"/srv/http/Lab/js"
+			],
+			"file_history":
+			[
+				"/home/pedro/bin/valet",
+				"/srv/http/Lab/js/main.js",
+				"/srv/http/Lab/index.html",
+				"/srv/http/Agrotech/resources/views/settings.blade.php",
+				"/srv/http/Acme/resources/assets/js/main.js",
+				"/srv/http/Agrotech/public/.htaccess",
+				"/srv/http/Agrotech/styles.css",
+				"/srv/http/Agrotech/index.html",
+				"/srv/http/Lab/styles.css",
+				"/srv/http/Lab/test.html",
+				"/srv/http/Lab/test.css",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/3.2.materials.fs",
+				"/srv/http/index.html",
+				"/srv/http/main.js",
+				"/home/pedro/make/present.cpp",
+				"/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/bin/media/!OBTAIN_THE_MEDIA_PACK_AND_PUT_IT_HERE.txt",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/materials_exercise1.cpp",
+				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp",
+				"/home/pedro/test.cpp",
+				"/home/pedro/Downloads/FLAG.C",
+				"/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/include/sb7.h",
+				"/srv/http/class.php",
+				"/home/pedro/Documents/regexr/index.html",
+				"/srv/http/game.js",
+				"/srv/http/game.css",
+				"/srv/http/game.html",
+				"/srv/http/styles.css",
+				"/home/pedro/.config/sublime-text-3/Packages/User/node.sublime-build",
+				"/home/pedro/learning-git/main.js",
+				"/home/pedro/learning-git/composer.json",
+				"/home/pedro/learning-git/test.blade.php",
+				"/home/pedro/learning-git/sum.h",
+				"/home/pedro/learning-git/main.cpp",
+				"/home/pedro/learning-git/sum.cpp",
+				"/home/pedro/learning-git/traverse.h",
+				"/home/pedro/learning-git/traverse.cpp",
+				"/home/pedro/Videos/CSS3/assets/reference/pet.css",
+				"/home/pedro/Videos/CSS3/assets/reference/pet.html",
+				"/srv/http/pet.html",
+				"/srv/http/index.php",
+				"/home/pedro/styles.css",
+				"/srv/html"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
 			"folders":
 			[
 				{
-					"path": "/srv/http"
+					"path": "/srv/http/Lab"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 7,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/srv/http/index.html",
+							"file": "/home/pedro/bin/valet",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 211,
+								"buffer_size": 2846,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										1158,
+										1158
 									]
 								],
 								"settings":
 								{
-									"_anf_new": "",
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 8,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/srv/http/main.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 258,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										232,
-										232
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/pedro/make/present.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 125,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										125,
-										125
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/pedro/Books/OpenGLSuperBible/code/sb7code-master/bin/media/!OBTAIN_THE_MEDIA_PACK_AND_PUT_IT_HERE.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 94,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										94,
-										94
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/materials_exercise1.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 10576,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2359,
-										2359
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1322.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 12864,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5079,
-										5079
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 2280.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/pedro/test.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 659,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										593,
-										593
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/home/pedro/Downloads/FLAG.C",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 934,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										746,
-										746
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 168.0,
+								"translation.y": 660.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/3.2.materials.fs",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1010,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										994,
-										1000
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 635.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
 							"type": "text"
 						}
 					]
@@ -868,7 +877,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 44.0
+				"height": 32.0
 			},
 			"input":
 			{
@@ -906,11 +915,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "1,0,0,0,0,1282,63,1912,1074,1920,1080",
+			"position": "0,0,0,0,0,4,63,1912,1074,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 84.0
+				"height": 60.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -919,6 +928,22 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"sty",
+						"public/css/styles.css"
+					],
+					[
+						"web.p",
+						"routes/web.php"
+					],
+					[
+						"welc",
+						"resources/views/welcome.blade.php"
+					],
+					[
+						"views/wel",
+						"resources/views/welcome.blade.php"
+					],
 					[
 						"php",
 						"class.php"
@@ -964,12 +989,12 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 263.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 9,
+			"window_id": 16,
 			"workspace_name": ""
 		}
 	],

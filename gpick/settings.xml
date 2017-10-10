@@ -157,10 +157,10 @@
 <secondary_color_source type="string"></secondary_color_source>
 <vertical_paned_position type="int32">0</vertical_paned_position>
 <window type="dynv">
-<height type="int32">490</height>
-<width type="int32">950</width>
-<x type="int32">962</x>
-<y type="int32">584</y>
+<height type="int32">1011</height>
+<width type="int32">630</width>
+<x type="int32">1282</x>
+<y type="int32">63</y>
 </window>
 </main>
 <picker type="dynv">
@@ -182,11 +182,11 @@
 <oversample type="int32">0</oversample>
 </sampler>
 <swatch type="dynv">
-<active_color type="int32">1</active_color>
+<active_color type="int32">3</active_color>
 <color1 type="color">0.142857 0.142857 0.142857 0</color1>
 <color2 type="color">0.285714 0.285714 0.285714 0</color2>
 <color3 type="color">0.428571 0.428571 0.428571 0</color3>
-<color4 type="color">0.571429 0.571429 0.571429 0</color4>
+<color4 type="color">0.428571 0.428571 0.428571 0</color4>
 <color5 type="color">0.714286 0.714286 0.714286 0</color5>
 <color6 type="color">0.857143 0.857143 0.857143 0</color6>
 </swatch>

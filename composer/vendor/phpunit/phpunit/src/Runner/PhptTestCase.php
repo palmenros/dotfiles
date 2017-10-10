@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /*
  * This file is part of PHPUnit.
  *
@@ -433,6 +433,11 @@ class PhptTestCase implements Test, SelfDescribing
         return \preg_split('/\n|\r/', $content, -1, PREG_SPLIT_NO_EMPTY);
     }
 
+    /**
+     * @param string $content
+     *
+     * @return array<string, string>
+     */
     protected function parseEnvSection($content)
     {
         $env = [];

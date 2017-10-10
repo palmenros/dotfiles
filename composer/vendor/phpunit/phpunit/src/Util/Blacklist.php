@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /*
  * This file is part of PHPUnit.
  *
@@ -46,12 +46,12 @@ class Blacklist
     ];
 
     /**
-     * @var array
+     * @var string[]
      */
     private static $directories;
 
     /**
-     * @return array
+     * @return string[]
      */
     public function getBlacklistedDirectories()
     {
