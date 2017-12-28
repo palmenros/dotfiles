@@ -1,6 +1,6 @@
 [Added Associations]
 image/png=feh.desktop;
-text/plain=org.gnome.gedit.desktop;userapp-gedit-DB715Y.desktop;jetbrains-phpstorm.desktop;sublime_text_3.desktop;
+text/plain=org.gnome.gedit.desktop;libreoffice-writer.desktop;sublime_text_3.desktop;userapp-gedit-DB715Y.desktop;jetbrains-phpstorm.desktop;
 audio/x-wav=gtk3-demo.desktop;
 application/x-shellscript=org.gnome.gedit.desktop;
 application/octet-stream=org.gnome.gedit.desktop;
@@ -17,7 +17,11 @@ text/x-chdr=sublime_text_3.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 text/csv=libreoffice-calc.desktop;
 video/x-matroska=vlc.desktop;
-application/javascript=org.gnome.gedit.desktop;
+application/javascript=sublime_text_3.desktop;org.gnome.gedit.desktop;
+text/markdown=org.gnome.gedit.desktop;
+application/json=userapp-gedit-DB715Y.desktop;org.gnome.gedit.desktop;
+video/webm=vlc.desktop;
+text/x-arduino=sublime_text_3.desktop;
 
 [Default Applications]
 text/plain=org.gnome.gedit.desktop

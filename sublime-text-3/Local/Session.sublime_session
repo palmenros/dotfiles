@@ -1,25 +1,63 @@
 {
 	"folder_history":
 	[
-		"/srv/http/Lab",
 		"/srv/http/Agrotech",
-		"/srv/http/Agrotech/routes",
+		"/home/pedro/git/AgrotechServer/src",
+		"/home/pedro/git/AgrotechServer",
+		"/srv/http/AgrotechServer",
+		"/srv/http/Agrotech_backup",
+		"/srv/http/AgrotechServer/.git",
+		"/srv/http/SocketIO",
+		"/srv/http/SocketIO/node_modules",
+		"/srv/http/Lab",
+		"/srv/http/Lab/js",
+		"/srv/http/Agrotech/resources",
+		"/srv/http/vuelab",
 		"/srv/http/Acme",
 		"/srv/http",
+		"/srv/http/Agrotech/routes",
 		"/home/pedro/learning-git"
 	],
 	"last_version": 3143,
-	"last_window_id": 16,
+	"last_window_id": 38,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1011.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"stat",
+						"statistics"
+					],
+					[
+						"backg",
+						"background"
+					],
+					[
+						"conf",
+						"confirmation"
+					],
+					[
+						"mb_convert",
+						"mb_convert_encoding"
+					],
+					[
+						"replace",
+						"preg_replace"
+					],
+					[
+						"c",
+						"component"
+					],
+					[
+						"select",
+						"selectTab"
+					],
 					[
 						"completed",
 						"completedTasks"
@@ -184,13 +222,17 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 170.0,
-				"last_filter": "",
+				"height": 212.0,
+				"last_filter": "install",
 				"selected_items":
 				[
 					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"rename ",
+						"ANF: Rename File"
 					],
 					[
 						"vue",
@@ -261,7 +303,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 557.0
+				"width": 549.0
 			},
 			"console":
 			{
@@ -281,7 +323,40 @@
 			},
 			"file_history":
 			[
+				"/srv/http/AgrotechServer/config.js",
+				"/home/pedro/git/AgrotechServer/index.js",
+				"/home/pedro/Desktop/question.txt",
+				"/srv/http/AgrotechServer/Mailer.js",
+				"/srv/http/AgrotechServer/resources/mails/waste.txt",
+				"/srv/http/AgrotechServer/resources/mails/waste.html",
+				"/srv/http/AgrotechServer/config.js-example",
+				"/srv/http/AgrotechServer/index.js",
+				"/home/pedro/Arduino/projects/Agrotech/AgrotechArduino/Agrotech.ino",
+				"/srv/http/Agrotech/public/js/app.js",
+				"/srv/http/AgrotechServer/.gitignore",
+				"/srv/http/Lab/index.html",
+				"/srv/http/Agrotech/resources/assets/sass/app.scss",
+				"/srv/http/Agrotech/resources/assets/sass/pages/settings.scss",
+				"/srv/http/Agrotech/resources/assets/js/app.js",
+				"/srv/http/Agrotech/resources/views/layouts/master.blade.php",
+				"/srv/http/Agrotech/webpack.mix.js",
+				"/srv/http/Agrotech/resources/assets/js/components/Flash.vue",
+				"/srv/http/Agrotech/resources/views/control.blade.php",
+				"/srv/http/Agrotech/public/css/app.css",
+				"/srv/http/Agrotech/resources/assets/js/components/LineChart.vue",
+				"/srv/http/Agrotech/app/Http/Controllers/StatisticsController.php",
+				"/srv/http/Agrotech/resources/views/statistics.blade.php",
+				"/srv/http/Agrotech/resources/assets/sass/pages/statistics.scss",
+				"/srv/http/Agrotech/resources/assets/js/components/DiscreteChart.vue",
+				"/srv/http/Agrotech/LineChart.vue",
+				"/srv/http/Agrotech/resources/assets/js/components/LineChart.js",
+				"/srv/http/Agrotech/public/css/styles.css",
 				"/srv/http/Agrotech/resources/views/settings.blade.php",
+				"/srv/http/Agrotech/routes/web.php",
+				"/srv/http/Acme/database/migrations/2017_10_11_171421_create_projects_table.php",
+				"/srv/http/vuelab/index.html",
+				"/home/pedro/bin/valet",
+				"/srv/http/Lab/js/main.js",
 				"/srv/http/Acme/resources/assets/js/main.js",
 				"/srv/http/Agrotech/public/.htaccess",
 				"/srv/http/Agrotech/styles.css",
@@ -289,7 +364,6 @@
 				"/srv/http/Lab/styles.css",
 				"/srv/http/Lab/test.html",
 				"/srv/http/Lab/test.css",
-				"/srv/http/Lab/index.html",
 				"/home/pedro/Books/learnopengl/LearnOpenGL/src/2.lighting/3.2.materials_exercise1/3.2.materials.fs",
 				"/srv/http/index.html",
 				"/srv/http/main.js",
@@ -324,7 +398,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -338,13 +412,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"aside",
-					"\n}",
-					"this.vy",
-					"this.vx",
-					"vx",
-					"velY",
-					"velX"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -361,11 +428,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 34.0
 			},
 			"input":
 			{
-				"height": 66.0
+				"height": 73.0
 			},
 			"menu_visible": true,
 			"output.exec":
@@ -376,10 +443,14 @@
 			{
 				"height": 0.0
 			},
+			"output.unsaved_changes":
+			{
+				"height": 174.0
+			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
 			"replace":
 			{
-				"height": 60.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -388,6 +459,74 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"mailer",
+						"Mailer.js"
+					],
+					[
+						"inde",
+						"index.js"
+					],
+					[
+						"mail",
+						"Mailer.js"
+					],
+					[
+						"app.js",
+						"resources/assets/js/app.js"
+					],
+					[
+						"app.scss",
+						"resources/assets/sass/app.scss"
+					],
+					[
+						"master.bl",
+						"resources/views/layouts/master.blade.php"
+					],
+					[
+						"statistics",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"app.s",
+						"resources/assets/sass/app.scss"
+					],
+					[
+						"control",
+						"resources/views/control.blade.php"
+					],
+					[
+						"statisics",
+						"app/Http/Controllers/StatisticsController.php"
+					],
+					[
+						"web",
+						"webpack.mix.js"
+					],
+					[
+						"statisti",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"stati",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"rweb",
+						"routes/web.php"
+					],
+					[
+						"master.",
+						"resources/views/layouts/master.blade.php"
+					],
+					[
+						"settings",
+						"resources/views/settings.blade.php"
+					],
+					[
+						"migrations/",
+						"database/migrations/2017_10_11_171421_create_projects_table.php"
+					],
 					[
 						"sty",
 						"public/css/styles.css"
@@ -445,13 +584,13 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 263.0,
+			"side_bar_width": 401.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1908.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -460,6 +599,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"stat",
+						"statistics"
+					],
+					[
+						"backg",
+						"background"
+					],
 					[
 						"conf",
 						"confirmation"
@@ -641,10 +788,28 @@
 			"buffers":
 			[
 				{
-					"file": "/home/pedro/bin/valet",
+					"file": "/home/pedro/git/AgrotechServer/index.js",
 					"settings":
 					{
-						"buffer_size": 2846,
+						"buffer_size": 237,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pedro/git/AgrotechServer/src/App.js",
+					"settings":
+					{
+						"buffer_size": 2504,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/pedro/dev/test.js",
+					"settings":
+					{
+						"buffer_size": 28880,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -657,17 +822,21 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 338.0,
-				"last_filter": "vue",
+				"height": 212.0,
+				"last_filter": "install",
 				"selected_items":
 				[
 					[
-						"vue",
-						"Set Syntax: Vue Component"
-					],
-					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"rename ",
+						"ANF: Rename File"
+					],
+					[
+						"vue",
+						"Set Syntax: Vue Component"
 					],
 					[
 						"package",
@@ -734,7 +903,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 513.0
+				"width": 549.0
 			},
 			"console":
 			{
@@ -754,15 +923,48 @@
 			},
 			"expanded_folders":
 			[
-				"/srv/http/Lab",
-				"/srv/http/Lab/js"
+				"/home/pedro/git/AgrotechServer",
+				"/home/pedro/git/AgrotechServer/config",
+				"/home/pedro/git/AgrotechServer/resources",
+				"/home/pedro/git/AgrotechServer/resources/mails",
+				"/home/pedro/git/AgrotechServer/src"
 			],
 			"file_history":
 			[
+				"/srv/http/AgrotechServer/config.js",
+				"/home/pedro/git/AgrotechServer/index.js",
+				"/home/pedro/Desktop/question.txt",
+				"/srv/http/AgrotechServer/Mailer.js",
+				"/srv/http/AgrotechServer/resources/mails/waste.txt",
+				"/srv/http/AgrotechServer/resources/mails/waste.html",
+				"/srv/http/AgrotechServer/config.js-example",
+				"/srv/http/AgrotechServer/index.js",
+				"/home/pedro/Arduino/projects/Agrotech/AgrotechArduino/Agrotech.ino",
+				"/srv/http/Agrotech/public/js/app.js",
+				"/srv/http/AgrotechServer/.gitignore",
+				"/srv/http/Lab/index.html",
+				"/srv/http/Agrotech/resources/assets/sass/app.scss",
+				"/srv/http/Agrotech/resources/assets/sass/pages/settings.scss",
+				"/srv/http/Agrotech/resources/assets/js/app.js",
+				"/srv/http/Agrotech/resources/views/layouts/master.blade.php",
+				"/srv/http/Agrotech/webpack.mix.js",
+				"/srv/http/Agrotech/resources/assets/js/components/Flash.vue",
+				"/srv/http/Agrotech/resources/views/control.blade.php",
+				"/srv/http/Agrotech/public/css/app.css",
+				"/srv/http/Agrotech/resources/assets/js/components/LineChart.vue",
+				"/srv/http/Agrotech/app/Http/Controllers/StatisticsController.php",
+				"/srv/http/Agrotech/resources/views/statistics.blade.php",
+				"/srv/http/Agrotech/resources/assets/sass/pages/statistics.scss",
+				"/srv/http/Agrotech/resources/assets/js/components/DiscreteChart.vue",
+				"/srv/http/Agrotech/LineChart.vue",
+				"/srv/http/Agrotech/resources/assets/js/components/LineChart.js",
+				"/srv/http/Agrotech/public/css/styles.css",
+				"/srv/http/Agrotech/resources/views/settings.blade.php",
+				"/srv/http/Agrotech/routes/web.php",
+				"/srv/http/Acme/database/migrations/2017_10_11_171421_create_projects_table.php",
+				"/srv/http/vuelab/index.html",
 				"/home/pedro/bin/valet",
 				"/srv/http/Lab/js/main.js",
-				"/srv/http/Lab/index.html",
-				"/srv/http/Agrotech/resources/views/settings.blade.php",
 				"/srv/http/Acme/resources/assets/js/main.js",
 				"/srv/http/Agrotech/public/.htaccess",
 				"/srv/http/Agrotech/styles.css",
@@ -804,7 +1006,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -818,6 +1020,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"45"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -835,38 +1038,98 @@
 			"folders":
 			[
 				{
-					"path": "/srv/http/Lab"
+					"path": "/home/pedro/git/AgrotechServer"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/pedro/bin/valet",
+							"file": "/home/pedro/git/AgrotechServer/index.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2846,
+								"buffer_size": 237,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1158,
-										1158
+										237,
+										237
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax"
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 660.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/pedro/git/AgrotechServer/src/App.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2504,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2376,
+										2376
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1152.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/pedro/dev/test.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 28880,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										76,
+										76
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -877,11 +1140,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 34.0
 			},
 			"input":
 			{
-				"height": 66.0
+				"height": 73.0
 			},
 			"layout":
 			{
@@ -914,12 +1177,16 @@
 			{
 				"height": 0.0
 			},
+			"output.unsaved_changes":
+			{
+				"height": 174.0
+			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,0,0,0,0,4,63,1912,1074,1920,1080",
+			"position": "0,0,0,0,0,962,63,1912,1074,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 60.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -928,6 +1195,74 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"mailer",
+						"Mailer.js"
+					],
+					[
+						"inde",
+						"index.js"
+					],
+					[
+						"mail",
+						"Mailer.js"
+					],
+					[
+						"app.js",
+						"resources/assets/js/app.js"
+					],
+					[
+						"app.scss",
+						"resources/assets/sass/app.scss"
+					],
+					[
+						"master.bl",
+						"resources/views/layouts/master.blade.php"
+					],
+					[
+						"statistics",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"app.s",
+						"resources/assets/sass/app.scss"
+					],
+					[
+						"control",
+						"resources/views/control.blade.php"
+					],
+					[
+						"statisics",
+						"app/Http/Controllers/StatisticsController.php"
+					],
+					[
+						"web",
+						"webpack.mix.js"
+					],
+					[
+						"statisti",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"stati",
+						"resources/views/statistics.blade.php"
+					],
+					[
+						"rweb",
+						"routes/web.php"
+					],
+					[
+						"master.",
+						"resources/views/layouts/master.blade.php"
+					],
+					[
+						"settings",
+						"resources/views/settings.blade.php"
+					],
+					[
+						"migrations/",
+						"database/migrations/2017_10_11_171421_create_projects_table.php"
+					],
 					[
 						"sty",
 						"public/css/styles.css"
@@ -989,12 +1324,12 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 263.0,
+			"side_bar_width": 209.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 16,
+			"window_id": 36,
 			"workspace_name": ""
 		}
 	],

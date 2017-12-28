@@ -1,0 +1,11 @@
+[2017-12-27 12:14:00.677] [renderer1] [error] Cannot read property 'TokenType' of undefined: TypeError: Cannot read property 'TokenType' of undefined
+	at CompletionSource.isPositionInsideStringOrComment (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:115:44)
+	at CompletionSource.<anonymous> (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:78:22)
+	at Generator.next (<anonymous>)
+	at __awaiter (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:9:71)
+	at Promise (<anonymous>)
+	at __awaiter (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:5:12)
+	at CompletionSource.getCompletionResult (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:68:16)
+	at CompletionSource.<anonymous> (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:40:39)
+	at Generator.next (<anonymous>)
+	at __awaiter (/home/pedro/.vscode/extensions/ms-python.python-0.9.1/out/client/providers/completionSource.js:9:71)
