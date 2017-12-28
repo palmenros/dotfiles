@@ -137,7 +137,8 @@ map <F9> <F4> :!./a.out < input > programOutput ; cat programOutput <CR>
 map <F10> <F9> :terminal diff -s output programOutput <CR> <CR>
 
 command View :!uva view %:r
-command Send :!uva send %
+command Send :!uva send % 
 command Status :terminal uva status
+command Copy :%w !xclip -i -sel c
 
 colorscheme hybrid
