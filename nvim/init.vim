@@ -45,6 +45,11 @@ Plug 'hail2u/vim-css3-syntax'
 "Vimball
 Plug 'vim-scripts/Vimball'
 
+"Processing support
+Plug 'sophacles/vim-processing'
+
+Plug 'palmenros/vim-cmake'
+
 call plug#end()
 
 " enhance YCM JS completion with tern's smarts
@@ -107,6 +112,9 @@ au BufNewFile,BufRead *.ino set ft=cpp
 set background=dark
 set termguicolors
 
+"Auto close YCM preview window after finishing insert
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
 "Enable CSS completion
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS noci
 
@@ -115,6 +123,9 @@ let g:ycm_semantic_triggers = {
     \   'css': [ 're!^\t+', 're!:\s+', 're!@' ],
     \ }
 
+"Enable python completion
+let g:ycm_python_binary_path = '/usr/bin/python3'
+
 "Makes scrolling fast
 set lazyredraw
 
@@ -122,14 +133,18 @@ set lazyredraw
 map <F12> :YcmCompleter GoTo <CR>
 map <M-Return> :YcmCompleter FixIt <CR> :on <CR> 
 
-"Set NERDTree bindings
-map <M-l> :NERDTreeToggle <CR>
+"Set NERDTree bindings and terminal
+map <M-1> :NERDTreeToggle <CR>
+map <M-0> :SplitTerminal <CR>
 
 map <C-n> :!ctags -R . <CR> :CtrlPTag <CR>
 
 "UVA Judge helpers
 
-map <C-s> :w <CR>
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
+
 map <F4> :w <CR> :!g++ % <CR>
 map <F5> <F4> :terminal ./a.out <CR> <CR> i
 
@@ -142,3 +157,50 @@ command Status :terminal uva status
 command Copy :%w !xclip -i -sel c
 
 colorscheme hybrid
+
+"Fix c++ highlight bug
+let c_no_curly_error=1
+
+"C++ syntax highlightning settings
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+
+"Set arduino
+let g:arduino_dir='/usr/share/arduino'
+
+command W w !sudo tee % > /dev/null
+
+"Set single compile shortcuts
+nmap <F4> :SCCompile<cr>
+nmap <F5> :SCCompileRun<cr>
+
+"Always enter insert mode when entering neovim terminal
+autocmd TermOpen * startinsert
+"Remove line numbers on terminal
+autocmd TermOpen * setlocal nonumber norelativenumber
+
+"Open split windows on bottom
+set splitbelow
+
+"Create SplitTerminal command
+command! -nargs=* SplitTerminal split | terminal <args>
+
+"Detect C++ standard file headers and set their filtype accordingly
+au BufRead * if search('\M-*- C++ -*-', 'n', 1) | setlocal ft=cpp | endif
+
+"If we are on processing, remap exec buttons to make
+au BufNewFile,BufRead *.pde nmap <F4> :make<cr> 
+au BufNewFile,BufRead *.pde nmap <F5> :make<cr> 
+
+"Compatibility between Cmake and YCM
+let g:cmake_export_compile_commands = 1
+let g:cmake_ycm_symlinks = 1
+
+augroup plugin_initialize
+	autocmd!
+	autocmd VimEnter * exec 'CMakeInit'
+augroup END
+
+"Ctrlp ignore 
+let g:ctrlp_custom_ignore = '\v([\/]\.(git|hg|svn))|(\/build)$'
