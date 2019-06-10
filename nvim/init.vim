@@ -34,7 +34,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 
 "Arduino
-Plug 'stevearc/vim-arduino'
+Plug 'palmenros/vim-arduino'
 
 "Emmet
 Plug 'mattn/emmet-vim'
@@ -48,7 +48,23 @@ Plug 'vim-scripts/Vimball'
 "Processing support
 Plug 'sophacles/vim-processing'
 
+"Cmake support
 Plug 'palmenros/vim-cmake'
+
+"GDB support
+Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
+
+"Polyglot, multiple language support
+Plug 'sheerun/vim-polyglot'
+
+"Rename and other file operations
+Plug 'tpope/vim-eunuch'
+
+"Sudo support
+Plug 'lambdalisue/suda.vim'
+
+"Multiple cursors
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
@@ -137,7 +153,8 @@ map <M-Return> :YcmCompleter FixIt <CR> :on <CR>
 map <M-1> :NERDTreeToggle <CR>
 map <M-0> :SplitTerminal <CR>
 
-map <C-n> :!ctags -R . <CR> :CtrlPTag <CR>
+"Refresh ctags and call CtrlPTag
+"map <C-n> :!ctags -R . <CR> :CtrlPTag <CR>
 
 "UVA Judge helpers
 
@@ -145,11 +162,11 @@ noremap <silent> <C-S>          :update<CR>
 vnoremap <silent> <C-S>         <C-C>:update<CR>
 inoremap <silent> <C-S>         <C-O>:update<CR>
 
-map <F4> :w <CR> :!g++ % <CR>
-map <F5> <F4> :terminal ./a.out <CR> <CR> i
+"map <F4> :w <CR> :!g++ % <CR>
+"map <F5> <F4> :terminal ./a.out <CR> <CR> i
 
-map <F9> <F4> :!./a.out < input > programOutput ; cat programOutput <CR>
-map <F10> <F9> :terminal diff -s output programOutput <CR> <CR>
+"map <F9> <F4> :!./a.out < input > programOutput ; cat programOutput <CR>
+"map <F10> <F9> :terminal diff -s output programOutput <CR> <CR>
 
 command View :!uva view %:r
 command Send :!uva send % 
@@ -170,10 +187,6 @@ let g:cpp_class_decl_highlight = 1
 let g:arduino_dir='/usr/share/arduino'
 
 command W w !sudo tee % > /dev/null
-
-"Set single compile shortcuts
-nmap <F4> :SCCompile<cr>
-nmap <F5> :SCCompileRun<cr>
 
 "Always enter insert mode when entering neovim terminal
 autocmd TermOpen * startinsert
@@ -204,3 +217,57 @@ augroup END
 
 "Ctrlp ignore 
 let g:ctrlp_custom_ignore = '\v([\/]\.(git|hg|svn))|(\/build)$'
+
+"Alt arrow navigation
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
+"Nvim-GDB configuration
+
+ let g:nvimgdb_config_override = {                                                  
+      \ 'key_until':      '<f4>',                                             
+      \ 'key_continue':   '<f5>',                                             
+      \ 'key_next':       '<f9>',                                            
+      \ 'key_step':       '<f10>',                                            
+      \ 'key_finish':     '',                                            
+      \ 'key_breakpoint': '<f8>',                                             
+      \ 'key_frameup':    '',                                            
+      \ 'key_framedown':  '',                                            
+      \ 'key_eval':       '',                                             
+	  \ 'split_command': 'exec 3*winwidth(0)/5."vsplit"'
+	  \ }   
+
+function! s:debug_current_file()
+
+	"If this is a CMake project
+	if g:cmake_found_build_dir
+		
+		execute "CMakeBuildDebug"
+
+	else
+		"This is not a CMake project, react accordingly to file extension
+		let b:file_extension = expand('%:e')
+
+		if b:file_extension == 'py'
+			"Execute PDB with current script
+			let b:file_path = expand('%')
+			execute "GdbStartPDB python -m pdb " . b:file_path
+		else
+			"Execute GDB after compiling file
+			let b:file_without_extension = expand('%:r')
+			execute "SCCompile"
+			execute "GdbStart gdb -q -f " . b:file_without_extension
+		endif
+
+	endif
+endfunction
+
+command! Debug call s:debug_current_file()
+
+"Set single compile shortcuts
+nmap <F4> :SCCompile<cr>
+nmap <F5> :SCCompileRun<cr>
+nmap <F6> :Debug<cr>
+
