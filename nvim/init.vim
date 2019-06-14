@@ -66,6 +66,10 @@ Plug 'lambdalisue/suda.vim'
 "Multiple cursors
 Plug 'terryma/vim-multiple-cursors'
 
+"Copy and paste
+"Use QC for copy and QV for paste
+Plug 'NLKNguyen/copy-cut-paste.vim'
+
 call plug#end()
 
 " enhance YCM JS completion with tern's smarts
@@ -254,11 +258,20 @@ function! s:debug_current_file()
 			"Execute PDB with current script
 			let b:file_path = expand('%')
 			execute "GdbStartPDB python -m pdb " . b:file_path
+		elseif b:file_extension == 'sh'
+			"Execute PDB with current script
+			let b:file_path = expand('%')
+			execute "GdbStartBashDB bashdb " . b:file_path
 		else
 			"Execute GDB after compiling file
 			let b:file_without_extension = expand('%:r')
+			let b:file_folder = expand('%:p:h')
+
+			let l:breakpoint_savefile = b:file_folder . '/.' . b:file_without_extension . '.' . b:file_extension . '.gdb_breakpoint_save'
+
 			execute "SCCompile"
-			execute "GdbStart gdb -q -f " . b:file_without_extension
+			let l:gdb_command = "gdb --ex 'set $breakpoints_save_file_path = \"" . l:breakpoint_savefile . "\"' " . b:file_without_extension . " -q -f -x ~/.vim/.cmake_gdb_config"
+			execute 'GdbStart ' .  l:gdb_command
 		endif
 
 	endif

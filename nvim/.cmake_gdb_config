@@ -1,2 +1,2 @@
-break main
+source ~/.vim/.gdb_python_script.py
 run
